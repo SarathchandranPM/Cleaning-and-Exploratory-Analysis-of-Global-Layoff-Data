@@ -1,6 +1,4 @@
-## Project Summary: Global Layoffs Data Analysis
-
-This project is a comprehensive data analysis and cleaning initiative focused on global layoff data. It demonstrates advanced data management skills, combining data cleaning techniques with in-depth exploratory analysis of workforce reduction trends across different companies, industries, and countries.
+## Global Layoffs Data Analysis
 
 ### Project Strengths
 - Rigorous data cleaning process
