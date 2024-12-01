@@ -1,8 +1,51 @@
-# Cleaning-and-Exploratory-Analysis-of-Global-Layoff-Data
-This project aims to perform data cleaning and exploratory analysis on global layoff dataset. The global layoff dataset consists of data of the employees laid off by various companies across the globe during a period of 4 years from 2020 to 2023.
+## Project Summary: Global Layoffs Data Analysis
 
-Part I - Data Cleaning
-In the first stage of this project, the data is imported from an Excel CSV file in to MySQL. In the staging part, I created a temporary table to avoid performing queries on the original data. Then, identified the data inconsistencies and fixed them with use of SQL queries.
+This project is a comprehensive data analysis and cleaning initiative focused on global layoff data. It demonstrates advanced data management skills, combining data cleaning techniques with in-depth exploratory analysis of workforce reduction trends across different companies, industries, and countries.
 
-Part II - Exploratory Analysis of the Cleaned Data
-In the second stage, the cleaned data is analysed to identify trends and patterns in the layoffs in the companies during these 4 years.
+### Project Strengths
+- Rigorous data cleaning process
+- Advanced SQL techniques
+- Detailed exploratory analysis
+- Insights into global employment trends
+
+### File-by-File Analysis
+
+#### 1. `Global Layoffs Data Cleaning Project.sql`
+This file is dedicated to data preparation and cleaning, showcasing meticulous data quality improvement:
+
+**Key Cleaning Steps:**
+- Created a staging table for data manipulation
+- Removed duplicate entries
+- Standardized data across multiple columns:
+  - Trimmed whitespaces
+  - Normalized industry and country names
+  - Converted date formats
+- Handled null and blank values
+- Removed irrelevant rows
+
+**Techniques Demonstrated:**
+- Window functions (row_number())
+- Table creation and modification
+- Data transformation queries
+- Join-based data updates
+- Data type conversions
+
+#### 2. `Exploratory Analysis of Global Layoff Data.sql`
+This file provides a comprehensive analysis of layoff data, offering insights into:
+
+**Key Analytical Queries**:
+- Highest layoff numbers and percentages
+- Layoff counts by:
+  - Company
+  - Industry
+  - Country
+  - Year and month
+- Ranking companies by layoff numbers
+- Cumulative layoff analysis
+
+**Advanced SQL Techniques:**
+- Aggregation functions
+- Common Table Expressions (CTEs)
+- Window functions
+- Date manipulation
+- Ranking and partitioning
